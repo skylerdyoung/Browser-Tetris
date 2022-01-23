@@ -1,6 +1,6 @@
 # Browser Tetris
-A fully playable rendition of Tetris made for the <br>
-web browser.<br>
+A fully playable rendition of Tetris <br>
+made for the web browser.<br>
 
 The main folder of the project holds the CSS and HTML <br>
 files for the web page, while **game-code** contains <br>
