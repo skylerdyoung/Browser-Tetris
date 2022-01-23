@@ -547,7 +547,9 @@ class GameBoard{
             for (let j= 0; j < this.game_array[0].length; j++){
 
                 if(this.game_array[i][j] === 2){
+                    
                     return true;
+                    
                 }
 
             }
