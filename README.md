@@ -1,3 +1,3 @@
 # Browser Tetris
-A fully playable rendition of Tetris made for the browser.
-Click [Here](https://www.google.com)
+A fully playable rendition of Tetris made for the browser. <br>
+Click [Here](skylerdyoung.github.io/browser-tetris/) to play.
