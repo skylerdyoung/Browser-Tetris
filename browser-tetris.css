@@ -68,11 +68,9 @@
 }
 
 .retry-box{
-
     grid-column: 1;
     grid-row: 1;
     padding-top: 515px;
-
 }
 
 .retry-box:hover{
