@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <title>Browser Tetris</title> 
+
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Press Start 2P'>
+
+        <link rel="stylesheet" href="browser-tetris.css">
+
+        <link rel=icon href="browser-tetris-icon.png">
+        
+        <script src='game-code/game-board.js'></script>       
+        <script src='game-code/functions.js'></script>  
+        <script src='game-code/init.js'></script>       
+
+    </head>
+
+    <body class="game-board center">
+
+            <span id="title" class="title">Browser Tetris</span>
+
+            <span class="game-box">
+
+                <canvas id="game" 
+                class="game-canvas"
+                width="200" 
+                height="400">
+                </canvas>
+
+            </span>
+
+            <span class="controls-box">
+
+                <span class="text">Controls: </span><br>
+
+                <span class="text">
+                    <span class="left-arrow">↑</span> = Move Left
+                </span><br>
+
+                <span class="text">
+                    <span class="right-arrow">↓</span> = Move Right
+                </span><br>
+
+                <span class="text">↑ = Rotate</span><br>
+
+                <span class="text">↓ = Speed Up</span><br>
+                
+                <span class="text">[ Space ] = </span><br>
+
+                <span class="text">Drop Piece</span>
+            
+            </span>
+
+            <span class="next-box">
+                
+                <span class="text">Next: </span><br>
+
+                <canvas id="next" 
+                width="100" 
+                height="100">
+                </canvas>
+
+            </span>
+
+            <span class="score-box">
+                
+                <span class="text">
+                    Score: <span id='score'>00000000000</span>
+                </span>
+            
+            </span>            
+
+            <span class="retry-box">
+
+                <span id="retry"
+                class="retry text" 
+                style="display:none;"
+                onclick="resetGame();">Retry?</span>
+
+            </span>
+
+    </body>
+
+</html>

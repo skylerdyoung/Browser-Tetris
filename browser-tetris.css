@@ -1,0 +1,89 @@
+.game-board{
+    display: grid;
+    background-color: black;
+    color: white;
+}
+
+.title{
+    grid-column: 1;
+    grid-row: 1;
+    font-family: 'Press Start 2P';
+    font-size: 24px;
+    padding-top: 15px;
+}
+
+.text{
+    font-family: 'Press Start 2P';
+    font-size: 12px;
+}
+
+.center{
+    text-align: center;
+}
+
+.game-box{
+    grid-column: 1;
+    grid-row: 1;
+    padding-top: 60px;
+}
+
+.game-canvas{
+    border: 2px solid white;
+}
+
+.next-box{
+    grid-column: 1;
+    grid-row: 1;
+    padding-left: 375px;
+    padding-top: 225px;
+    line-height: 45px;
+}
+
+.controls-box{
+    grid-column: 1;
+    grid-row: 1;
+    padding-right: 425px;
+    padding-top: 175px;
+    line-height: 30px;
+}
+
+.left-arrow{
+    position: absolute;
+    transform-origin: bottom; 
+    transform: rotate(-.25turn) translateX(8px) translateY(-4px);
+    width: 0px;
+}
+
+.right-arrow{
+    position: absolute;
+    transform-origin: bottom; 
+    transform: rotate(-.25turn) translateX(8px) translateY(-4px);;
+    width: 0px;
+}
+
+.score-box{
+    grid-column: 1;
+    grid-row: 1;
+    padding-top: 485px;
+}
+
+.retry-box{
+
+    grid-column: 1;
+    grid-row: 1;
+    padding-top: 515px;
+
+}
+
+.retry-box:hover{
+    cursor: default;
+}
+
+.retry:hover{
+    color: #FFD700;
+    cursor: pointer;
+}
+
+.retry:active{
+    color: red;
+}
